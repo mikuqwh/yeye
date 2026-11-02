@@ -40,3 +40,6 @@ Listings/
 *.mp4
 *.mov
 *.avi
+
+# Full desktop capture set stays in shared storage; only classified samples are committed
+vision/data/lane_2026-11-02_full/

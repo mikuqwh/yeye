@@ -1,0 +1,9 @@
+frames=328  road=328  junk=0
+primary border >=4 pts : 266/328 (81%)
+second  border >=4 pts : 6/328 (2%)
+both borders           : 6/328 (2%)
+fit residual p25/50/75 : [ 6.8  7.9 11.9] px
+slope dx/dy p5/50/95   : [-1.83 -1.37  0.44]
+border x@y=200 p5/50/95: [-63.9  10.1 310.4] px
+horizon k p5/50/95     : [-0.286 -0.073  0.081]   b p5/50/95: [ 10.1  81.6 125.9]
+WROTE overlay_lane.png (magenta = horizon line)   # 原始输出为本机绝对路径，归档时略去
